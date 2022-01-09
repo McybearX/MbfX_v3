@@ -11,7 +11,7 @@ import time,os,random
 try:
         tema = open(".tema.txt","r").read()
 except IOError:
-        tema = "default"
+        tema = "random"
 
 M = random.choice(["\x1b[1;91m","\x1b[1;92m","\x1b[1;93m","\x1b[1;94m","\x1b[1;95m","\x1b[1;96m"])
 H = random.choice(["\x1b[1;91m","\x1b[1;92m","\x1b[1;93m","\x1b[1;94m","\x1b[1;95m","\x1b[1;96m"])

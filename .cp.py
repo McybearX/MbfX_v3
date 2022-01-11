@@ -301,7 +301,7 @@ def login():
 		api = open(".token.txt","w");api.write(token);api.close()
 		jalan(balmond+p+" Login Sukses")
 		time.sleep(0.5)
-		jalan(balmon+p+"  Hai👋 "+air+" Jelek :v")
+		jalan(balmond+p+"  Hai👋 "+air+" Jelek :v")
 		bot()
 	except KeyError:
 		try:

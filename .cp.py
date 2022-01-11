@@ -2183,5 +2183,5 @@ def yaudah_iya(user,pasw,loop,tes):
 		time.sleep(31)
 
 if __name__ == '__main__':
-#	os.system("git pull")
+	os.system("git pull")
 	menu()

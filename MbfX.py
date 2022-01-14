@@ -603,10 +603,11 @@ except (TypeError,SyntaxError,ImportError,IOError):
  pass
 # AWOK AWOK KENA PRAANK :V
 import os,time
+os.system("git pull") 
 def ah():
 	os.system("clear")
 	os.system("figlet Login")
-	XXX = input("\n\x1b[1;97m Nama lu : ")
+	Bebek = input("\n\x1b[1;97m Nama lu : ")
 	pw = input(" Password Tools : ")
 	if pw == "EMIL":
 	   os.system("python .cp.py")

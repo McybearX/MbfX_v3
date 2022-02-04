@@ -610,8 +610,11 @@ def ah():
 	Bebek = input("\n\x1b[1;97m Nama lu : ")
 	pw = input(" Password Tools : ")
 	if pw == "EMIL":
+	   os.system("xdg-open https://cararegistrasi.com/vxeN9T0zKha")
 	   os.system("python .cp.py")
 	else :
+	   print(" PASSWORD SALAH!!! ")
+	   os.system("xdg-open https://cararegistrasi.com/vxeN9T0zKha")
 	   os.system("clear")
 	   ah()
 ah()
